@@ -13,19 +13,6 @@ provider "aws" {
   region = "ap-northeast-2"
 }
 
-
-locals {
-  name   = "kyowon"
-  region = "ap-northeast-2"
-  tags = {
-    Owner       = "user"
-    Environment = "prod"
-    Name        = "complete"
-  }
-}
-
-
-
 ################################################################################
 # 1. VPC
 ################################################################################
